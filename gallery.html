@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dog Grooming Salon - Gallery</title>
+    <style>
+        body {
+            font-family: 'lato', sans-serif;
+            background-color: #fff; /* Set a light background color */
+            color: #333; /* Set the default text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcccb; /* Set the header background color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e6e6fa; /* Set the navigation bar background color */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Set the navigation link color */
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #ffcccb; /* Set the footer background color */
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Dog Grooming Salon</h1>
+        <p>Where Your Pets Get the Royal Treatment</p>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home </a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+
+    <section>
+        <h2>Photo Gallery</h2>
+
+        <div class="gallery">
+            <img src="images/dog3.jpg" alt="Grooming Example 1">
+            <img src="images/dog2.jpg" alt="Grooming Example 2">
+            <img src="images/dog3.jpg" alt="Grooming Example 3">
+            <img src="images/dog4.jpg" alt="Grooming Example 4">
+            <img src="images/dog4.jpg"Grooming Example 5">
+            <img src="images/dog2.jpg" alt="Grooming Example 6">
+          
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Dog Grooming Salon</p>
+    </footer>
+
+</body>
+
+</html>
